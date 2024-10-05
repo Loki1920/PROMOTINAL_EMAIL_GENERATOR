@@ -35,7 +35,7 @@ class ColdMailGenerator:
         self.create_streamlit_app()
 
     def create_streamlit_app(self):
-        st.title("📧 Cold Mail Generator")
+        st.title("📧 Email Generator")
         
         # Initialize session state
         self.init_session_state()
@@ -90,7 +90,7 @@ class ColdMailGenerator:
     def get_user_details(self):
         # Get user details: Full Name, Designation, Company Name
         st.header("User Details")
-        st.session_state.full_name = st.text_input("Enter your full name:", placeholder="Mandeep Singh")
+        st.session_state.full_name = st.text_input("Enter your full name:", placeholder="Lucky Tiwari")
         st.session_state.designation = st.text_input("Enter your designation:", placeholder="AI Engineer")
         st.session_state.company_name = st.text_input("Enter your company name:", placeholder="MSpace")
 
