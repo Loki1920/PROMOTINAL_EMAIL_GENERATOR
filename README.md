@@ -1,4 +1,4 @@
-# COLD_EMAIL_GENERATOR
+# PROMOTIONAL_EMAIL_GENERATOR
 USING GROQ API CREATING COLD EMAIL 
 ![image](https://github.com/user-attachments/assets/d0d9c18e-94b9-40aa-97f8-172d5b814e66)
 
